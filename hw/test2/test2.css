@@ -1,0 +1,45 @@
+html, body {
+	height: 100%;
+	
+}
+
+/* write your code here - START */
+
+article:first-child {
+	 position:absolute;
+    top:0;
+	background-color:red;
+	left:0%;
+    width:800px;
+    height:400px;
+	
+}
+
+article:nth-child(2) {
+    position:absolute;
+    width:800px;
+    height:400px;
+    background:yellow;
+    top:0;
+    left:50%;
+}
+article:nth-child(3) {
+    position:absolute;
+    width:800px;
+    height:400px;
+    background:blue;
+    top:400px;
+    left:0%;
+}
+
+article:nth-child(4) {
+    position:absolute;
+    width:800px;
+    height:400px;
+    background:green;
+    top:400px;
+    left:50%;
+}
+
+
+/* write your code here - END */

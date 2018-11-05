@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>CASE</title>
+
+    <link rel="stylesheet" href="./test4.css">
+    
+    <script src="./test4.js"></script>
+</head>
+<body>
+
+        <div id="betwidget">
+			
+            <h1 id="betwidgettitle"> HEMEN OYNA</h1>
+			<div class="firstline"></div>
+            <p id="match">474   Kashima-Cereza Osoka</p>
+			
+			<button id="box" onclick="colorChange('1');">1</button>
+			<button class="oran" id="1" value="2.30">2,30</button>
+			<button id="box" onclick="colorChange('2');">X</button>
+			<button class="oran" id="2" value="3.10">3,10</button>
+			<button id="box" onclick="colorChange('3');">2</button>
+			<button class="oran" id="3" value="2.35">2,35</button>
+			<div id="prob">%76,19 <span class="tab"> %14,29 </span> <span class="tab"> %9,52 </span></div>
+			
+			<div class="line"></div>
+			
+						
+						
+						
+            <p id="match">475   K.Sanuki-Machida Zelvia</p>
+			
+			<button id="box" onclick="colorChange('4');">1</button>
+			<button class="oran" id="4" value="3.60">3,60</button>
+			<button id="box" onclick="colorChange('5');">X</button>
+			<button  class="oran" id="5" value="3.20">3,20</button>
+			<button id="box" onclick="colorChange('6');">2</button>
+			<button class="oran" id="6" value="1.65">1,65</button>
+			<div id="prob">%24,40 <span class="tab"> %16,59 </span> <span class="tab"> %59,01 </span></div>
+			
+			<div class="line"></div>
+			
+			
+			<p id="match">476   Dragons-Daegu</p>
+			
+			<button id="box" onclick="colorChange('7');">1</button>
+			<button class="oran" id="7" value="2.50">2,50</button>
+			<button id="box" onclick="colorChange('8');">X</button>
+			<button  class="oran" id="8" value="3.00">3,00</button>
+			<button id="box" onclick="colorChange('9');">2</button>
+			<button class="oran" id="9" value="2.10">2,10</button>
+			<div id="prob">%16,67 <span class="tab"> %22,22 </span> <span class="tab"> %61,11 </span></div>
+			
+			<div class="lastline"></div>
+			
+			
+			<div id="calc">
+			<div id="leftside">
+			Misli	
+		<select name="misli" onchange="misliFunction(this.value)" style="height:30px; margin-left:13px;">
+		<option value='3'selected>3
+		</option>
+		<option value='4'>4</option>
+		<option value='5'>5</option>
+		<option value='6'>6</option>
+		</select></div>
+			
+			
+		<div id="rightside">
+		K.Bedeli:<div id="total">  </div>
+		M. Kazanç:<div id="total2">  </div>
+		</div>
+			</div>
+			
+			
+			
+			
+            <div id="footer">
+			<button id="reset" onclick="resetMatches();">Sıfırla</button>
+			<a href="payment.html" id="playLink">Hemen Oyna--></a>
+			
+			
+			</div>
+        </div>
+
+</body>
+</html>
